@@ -9,6 +9,7 @@ import java.io.File;
 import java.util.ArrayList;
 
 /**
+ * development init
  * Created by Yuriy on 14.11.2015.
  */
 public class MainWD {
