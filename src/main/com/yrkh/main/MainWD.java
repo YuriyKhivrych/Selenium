@@ -9,7 +9,6 @@ import java.io.File;
 import java.util.ArrayList;
 
 /**
- * development init
  * Created by Yuriy on 14.11.2015.
  */
 public class MainWD {
@@ -20,6 +19,4 @@ public class MainWD {
         ArrayList <Action> actions = new WebDriverActionReader().readAll(filePath, "actions");
         new WebDriverEngine().runAllWithReport(actions, filePath.replace(".xlsx", " (report).xlsx"));
     }
-
-
 }

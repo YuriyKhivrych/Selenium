@@ -17,7 +17,7 @@ public class MainWDTest {
         driver.get("https://www.google.com/");
         List<WebElement> links = driver.findElements(By.tagName("a"));
         System.out.print("Number of links: " + links.size());
-        assertEquals(40, links.size());
+        assertEquals(39, links.size());
         driver.close();
     }
 
